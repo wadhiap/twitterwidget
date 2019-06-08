@@ -1,0 +1,106 @@
+#twitter_wrapper
+{
+    background-color:white;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+#tweet_tools_wrapper
+{
+    margin-bottom:14px;
+}
+
+#twitter_app_msg
+{
+    text-align: center;
+    font-size:14px;
+}
+
+.tweet_wrapper
+{
+    box-sizing: border-box;
+    border-bottom: 1px solid #cccccc;
+    overflow: auto;
+    font-size:14px;
+    padding:1em 1em 0.5em 1em;	
+}
+
+.tweet_left
+{
+    float:left;
+    width:65px;
+}
+
+.tweet_left img
+{
+    border-radius: 50%;
+}
+
+.tweet_right
+{
+    overflow:hidden;
+    margin-left:3em;
+}
+
+.tweet_right img
+{
+    max-width:100%;
+    border-radius: 10px;
+    margin-top:10px
+}
+
+.tweet_right_row
+{
+    margin-bottom:0.5em;
+}
+
+.tweet_right_row a
+{
+    color:#89C9FA;
+}
+
+.tweet_user_name
+{
+    font-weight:bold;
+}
+
+.tweet_user_username
+{
+    color:#657786;
+}
+
+.tweet_time
+{
+    color:#657786;
+}
+
+.tweet_right_3 span
+{
+    margin-right:8px;
+    color: #657786;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+/* -- Tools -- */
+
+#tweet_tools_wrapper
+{
+    overflow:auto;
+    font-size:12px;
+}
+
+#tweet_tools_font_wrapper
+{
+    float:left;
+}
+
+#tweet_tools_bg_wrapper
+{
+    float:right;
+}
+
+#tweet_tools_wrapper button
+{
+    padding:3px 5px;
+    font-size:1em;
+}
